@@ -5,6 +5,7 @@ import { NgApexchartsModule } from 'ng-apexcharts';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DarkDashModule } from './dark-dash/dark-dash.module';
+import { DashTwoModule } from './dash-two/dash-two.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 
 @NgModule({
@@ -16,6 +17,7 @@ import { DashboardModule } from './dashboard/dashboard.module';
     NgApexchartsModule,
     DashboardModule,
     DarkDashModule,
+    DashTwoModule,
     AppRoutingModule
   ],
   providers: [],

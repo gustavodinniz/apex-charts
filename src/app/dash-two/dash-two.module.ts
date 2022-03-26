@@ -7,6 +7,7 @@ import { RadarMultipleComponent } from './components/radar-multiple/radar-multip
 import { BoxplotScatterComponent } from './components/boxplot-scatter/boxplot-scatter.component';
 import { AreaLineColumnComponent } from './components/area-line-column/area-line-column.component';
 import { HeatmapComponent } from './components/heatmap/heatmap.component';
+import { NgApexchartsModule } from 'ng-apexcharts';
 
 
 
@@ -21,7 +22,8 @@ import { HeatmapComponent } from './components/heatmap/heatmap.component';
     HeatmapComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    NgApexchartsModule
   ]
 })
 export class DashTwoModule { }
