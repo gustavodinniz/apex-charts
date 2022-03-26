@@ -9,9 +9,7 @@ import { ApexAxisChartSeries, ApexChart, ApexTitleSubtitle } from 'ng-apexcharts
 export class AreaChartComponent implements OnInit {
 
   @Input() chart!: ApexChart;
-
   @Input() title!: ApexTitleSubtitle;
-
   @Input() series!: ApexAxisChartSeries;
 
   ngOnInit(): void {

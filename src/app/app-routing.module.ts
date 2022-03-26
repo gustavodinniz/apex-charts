@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { DarkDashRoutes } from './dark-dash/dark-dash-routing.module';
 import { DashboardRoutes } from './dashboard/dashboard-routing.module';
 
 const routes: Routes = [
@@ -8,7 +9,9 @@ const routes: Routes = [
     redirectTo: '/dashboard',
     pathMatch: 'full'
   },
-  ...DashboardRoutes
+  ...DashboardRoutes,
+  ...DarkDashRoutes
+
 ];
 
 @NgModule({
