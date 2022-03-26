@@ -30,8 +30,8 @@ export class RadialBarBottomComponent implements OnInit {
   initializeChartOptions() {
     this.chart = {
       type: 'radialBar',
-      height: 350,
-      width: 380,
+      height: 300,
+      width: "100%",
     };
 
     this.plotOptions = {
@@ -39,7 +39,7 @@ export class RadialBarBottomComponent implements OnInit {
         inverseOrder: true,
         hollow: {
           margin: 5,
-          size: '48%',
+          size: '50%',
           background: 'transparent',
 
         },

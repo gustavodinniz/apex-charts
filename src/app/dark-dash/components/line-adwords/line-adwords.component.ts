@@ -39,10 +39,11 @@ export class LineAdwordsComponent implements OnInit {
 
   initializeChartOptions() {
     this.chart = {
-      height: 328,
+      height: 300,
+      width: "100%",
       type: 'line',
       zoom: {
-        enabled: false
+        enabled: true
       },
       dropShadow: {
         enabled: true,
@@ -82,14 +83,14 @@ export class LineAdwordsComponent implements OnInit {
 
     this.stroke = {
       curve: 'smooth',
-      width: 2
+      width: 5
     };
 
     this.markers = {
-      size: 6,
+      size: 1,
       strokeWidth: 0,
       hover: {
-        size: 9
+        size: 1
       }
     };
 

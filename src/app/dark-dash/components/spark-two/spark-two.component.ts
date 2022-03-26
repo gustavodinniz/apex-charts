@@ -34,7 +34,7 @@ export class SparkTwoComponent implements OnInit {
       id: 'spark2',
       group: 'sparks',
       type: 'line',
-      height: 80,
+      height: 100,
       sparkline: {
         enabled: true
       },

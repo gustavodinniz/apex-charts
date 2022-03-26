@@ -36,7 +36,7 @@ export class SparkFourComponent implements OnInit {
       id: 'spark4',
       group: 'sparks',
       type: 'line',
-      height: 80,
+      height: 100,
       sparkline: {
         enabled: true
       },

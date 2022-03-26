@@ -29,7 +29,8 @@ export class DarkBarChartComponent implements OnInit {
 
   initializeChartOptions() {
     this.chart = {
-      height: 380,
+      height: 300,
+      width: "100%",
       type: 'bar',
       stacked: true,
     };
