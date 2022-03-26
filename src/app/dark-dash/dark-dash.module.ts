@@ -6,6 +6,10 @@ import { SparkOneComponent } from './components/spark-one/spark-one.component';
 import { SparkTwoComponent } from './components/spark-two/spark-two.component';
 import { SparkThreeComponent } from './components/spark-three/spark-three.component';
 import { SparkFourComponent } from './components/spark-four/spark-four.component';
+import { LineAdwordsComponent } from './components/line-adwords/line-adwords.component';
+import { RadialBarBottomComponent } from './components/radial-bar-bottom/radial-bar-bottom.component';
+import { DarkAreaChartComponent } from './components/dark-area-chart/dark-area-chart.component';
+import { DarkBarChartComponent } from './components/dark-bar-chart/dark-bar-chart.component';
 
 
 
@@ -15,7 +19,11 @@ import { SparkFourComponent } from './components/spark-four/spark-four.component
     SparkOneComponent,
     SparkTwoComponent,
     SparkThreeComponent,
-    SparkFourComponent
+    SparkFourComponent,
+    LineAdwordsComponent,
+    RadialBarBottomComponent,
+    DarkAreaChartComponent,
+    DarkBarChartComponent
   ],
   imports: [
     CommonModule,
